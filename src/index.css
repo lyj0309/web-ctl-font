@@ -1,0 +1,85 @@
+#app {
+     width: 100%;
+     background-color: #ECECEC;
+     height: 100%;
+    
+}
+
+.log {
+     top: 1rem !important;
+     position: absolute !important;
+     right: 3rem;
+    
+}
+
+.ip{
+     font-size: 1.3rem;
+}
+
+.title {
+     text-align: center;
+     background-color: #ffffff;
+     box-shadow: 1px 1px 3px;
+     font-size: 2.5rem;
+     color: #666666;
+    
+}
+
+.item {
+     box-shadow: 1px 1px 3px;
+     background-color: #ffffff;
+     text-align: center;
+     width: 15rem;
+     height: 20rem;
+     margin-left: 2rem;
+     border-radius: 1rem;
+    
+}
+
+.list {
+     justify-content: center;
+     margin-top: 2rem;
+     width: 100%;
+     display: flex;
+    
+}
+
+.name {
+     margin-top: 1rem;
+     font-size: 1.8rem;
+}
+
+.ant-switch-checked {
+     background-color: #8dc63f !important;
+    
+}
+
+.inline {
+     color: #8dc63f;
+    
+}
+
+.inline::after {
+     content: "在线";
+    
+}
+
+.offline {
+     color: red;
+    
+}
+
+.offline::after {
+     content: "离线";
+    
+}
+
+.state {
+     font-size: 1.8rem;
+     margin-bottom: 1em;
+    
+}
+
+.switch {
+     zoom: 1.66;
+}
